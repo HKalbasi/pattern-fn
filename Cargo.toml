@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = ["pattern-fn-proc-macro"]
+
+[package]
+name = "pattern-fn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pattern-fn-proc-macro = { version = "0.1.0", path = "pattern-fn-proc-macro" }
